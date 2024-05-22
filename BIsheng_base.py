@@ -29,6 +29,10 @@ def base2():
         binary_data = ss.pdf_ref.getvalue()
         pdf_viewer(input=binary_data, width=1200)
 
+def baseKnowledge2():
+    import streamlit.components.v1 as components
+    components.iframe("https://blog.csdn.net/weixin_41165446/article/details/139113557", width=1200, height=2000, scrolling=True)
+
 
 def baseKnowledge():
     import streamlit as st

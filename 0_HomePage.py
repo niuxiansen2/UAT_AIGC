@@ -75,7 +75,7 @@ if st.session_state["menu"] == "主页":
         )
 
 if st.session_state["menu"] == "基本介绍":
-    baseKnowledge()
+    baseKnowledge2()
     # base2()
 #
 if st.session_state["menu"] == "优秀开源案例":
