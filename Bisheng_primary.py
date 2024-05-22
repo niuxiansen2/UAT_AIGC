@@ -24,6 +24,11 @@ def fileshow():# st.set_page_config(page_title="bisheng快速入门", page_icon=
 def primaryLearning():
     with st.container():
         st.header("⌨️基本操作入门",divider="rainbow")
-        fileshow()
-        st.divider()
-        st.divider()
+        # fileshow()
+        # st.divider()
+        # st.divider()
+
+        import streamlit.components.v1 as components
+        components.iframe("https://blog.csdn.net/weixin_41165446/article/details/139114907", width=1200,
+                          height=2000, scrolling=True)
+

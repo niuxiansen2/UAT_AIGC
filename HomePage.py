@@ -74,18 +74,20 @@ if st.session_state["menu"] == "主页":
             """
         )
 
-if st.session_state["menu"] == "基本介绍":
+if st.session_state["menu"] == "基本介绍":#使用markdown
     baseKnowledge2()
     # base2()
-#
+
+if st.session_state["menu"] == "快速入门":
+    primaryLearning()
+
 if st.session_state["menu"] == "优秀开源案例":
     openSourceUrl()
 
 if st.session_state["menu"] == "AIGC应用合集":
     AIGC_SET()
 
-if st.session_state["menu"] == "快速入门":
-    primaryLearning()
+
 
 if st.session_state["menu"] == "UI设计-Streamlit学习":
     main()
